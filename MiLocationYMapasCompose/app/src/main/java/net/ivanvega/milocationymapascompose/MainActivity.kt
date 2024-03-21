@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.platform.location.locationupdates.LocationUpdatesScreen
 import com.example.platform.location.permission.LocationPermissionScreen
 import net.ivanvega.milocationymapascompose.ui.location.CurrentLocationScreen
 import net.ivanvega.milocationymapascompose.ui.theme.MiLocationYMapasComposeTheme
@@ -29,7 +30,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                     //Greeting("Android")
                     //LocationPermissionScreen()
-                    CurrentLocationScreen()
+                    //CurrentLocationScreen()
+                    LocationUpdatesScreen()
                 }
             }
         }
