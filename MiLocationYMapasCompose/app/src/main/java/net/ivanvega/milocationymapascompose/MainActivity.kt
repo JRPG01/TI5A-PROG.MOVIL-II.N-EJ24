@@ -34,8 +34,8 @@ class MainActivity : ComponentActivity() {
                     //LocationPermissionScreen()
                     //CurrentLocationScreen()
                     //LocationUpdatesScreen()
-                    //MiMapa()
-                    MiMapaOSMDroidCompose()
+                    MiMapa() //Google
+                    //MiMapaOSMDroidCompose() //Open Street Map
                 }
             }
         }
